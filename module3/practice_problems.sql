@@ -105,7 +105,6 @@ CREATE TABLE location(
   locname VARCHAR(30) NOT NULL,
   CONSTRAINT pkLocNo PRIMARY KEY (locno),
   CONSTRAINT fkFacNo  FOREIGN KEY (facno) REFERENCES facility (facno)
-    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
