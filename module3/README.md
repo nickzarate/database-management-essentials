@@ -20,11 +20,15 @@ The graded assignment for module 3 was to finish the remaining 4 tables for the 
 
 ### Customer
 
-![Customer Table](./images/customer.png =100x20)
+<img src="./images/customer.png" alt="Customer Table" width="200" height="20" />
+
+![Customer Table](./images/customer.png)
 
 ### Employee
 
-![Employee Table](./images/employee.png =75x15)
+<img src="./images/customer.png" alt="Employee Table" width="150" height="15" />
+
+![Employee Table](./images/employee.png=150x15)
 
 ### Event Plan
 
