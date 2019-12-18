@@ -36,9 +36,60 @@ Define an ERD for the following narrative. The database should track homes and o
 
 Refine the ERD from problem 1 by adding an agent entity type. Agents represent owners in the sale of a home.  An agent can list many homes, but only one agent can list a home. An agent has a unique agent identifier, a name, an office identifier, and a phone number. When an owner agrees to list a home with an agent, a commission (percentage of the sales price) and a selling price are determined.
 
+![Practice Problem 2 Diagram](./images/practice_problem2.png)
+
 ### Problem 3
+
+In the ERD from problem 2, transform the attribute, office identifier, into an entity type. Data about an office include the phone number, the manager name, and the address.
+
+![Practice Problem 3 Diagram](./images/practice_problem3.png)
 
 ### Problem 4
 
+In the ERD from problem 3, add a buyer entity type. A buyer entity type has a unique buyer identifier, a Social Security number (used for government reporting only), a name, an address, a phone number, optional spouse attributes (name and Social Security number), and preferences for the number of bedrooms and bathrooms, and a price range. An agent can work with many buyers, but a buyer works with only one agent. 
+
+![Practice Problem 4 Diagram](./images/practice_problem4.png)
+
+### Problem 5
+
+Revise the ERD from problem 4 by adding an offer entity type. A buyer makes an offer on a home for a specified sales price. The offer starts on the submission date and time and expires on the specified date and time. A unique offer number identifies an offer. A buyer can submit multiple offers for the same home.
+
+![Practice Problem 5 Diagram](./images/practice_problem5.png)
+
+### Problem 6
+
+Design an ERD to represent a credit card statement. The statement has two parts: a heading containing the unique statement number, the account number of the credit card holder, and the statement date; and a detail section containing a list of zero or more transactions for which the balance is due. Each detail line contains a line number, a transaction date, a merchant name, and the amount of the transaction. The line number is unique within a statement.
+
+![Practice Problem 6 Diagram](./images/practice_problem6.png)
+
+### Problem 7
+
+Modify your ERD from problem 6. Everything is the same except that each detail line contains a unique transaction number in place of the line number. Transaction numbers are unique across statements.
+
+![Practice Problem 7 Diagram](./images/practice_problem7.png)
+
 ## Graded Assignment
 
+### Problem 1
+
+Draw an ERD to track lab tests performed by a medical laboratory on clients. The database should track basic client details including a unique client identifier, client name, client insurance provider (if any), client address, client date of birth, and client sex. The database should track the unique identifier for a lab test, the test type identifier, the date and time when the lab test was administered, and the identifier of the lab employee performing the test. A client can request multiple tests in a visit to the lab. The database only contains clients who have had lab tests performed. Each lab test is administered to one client.
+
+![Graded Assignment 1 Diagram](./images/graded_assignment1.png)
+
+### Problem 2
+
+Revise the ERD from problem 1 with more details about test types. A test type includes a unique test type identifier, a test type name, a test type cost, and a test type code. A lab test administered to a client is associated with one test type. A test type can be administered to multiple clients. A test type can exist in the database without ever being administered.
+
+![Graded Assignment 2 Diagram](./images/graded_assignment2.png)
+
+### Problem 3
+
+Revise the ERD from problem 2 with test type items. A test type item includes a unique test item identifier, a test item name, test item unit of measure, and a test item description. A test type includes one or more test items. A test item can be part of one or more test types. Do not use an M-N relationship.
+
+![Graded Assignment 3 Diagram](./images/graded_assignment3.png)
+
+### Problem 4
+
+Revise the ERD from problem 3 to use an M-N relationship. 
+
+![Graded Assignment 4 Diagram](./images/graded_assignment4.png)
