@@ -1,13 +1,5 @@
 # Module 5
 
-## Practice Problems
-
-All practice problems and related answers are located in `practice_problems.sql` and cover `SELECT` queries accessing two or more tables, as well as `INSERT`, `UPDATE`, and `DELETE` statements. Problems reference tables in the ICA database.
-
-## Graded Assignment
-
-All problems in the graded assignment and related answers are located in `graded_assignment.sql` and cover slightly more complex `SELECT` queries accessing up to five tables, as well as `INSERT`, `UPDATE`, and `DELETE` statements. Problems also reference tables in the ICA database.
-
 ## Key Lessons
 
 This module primarily taught:
@@ -32,3 +24,11 @@ Redundancy errors:
 
  - Executes a valid query and obtains the correct rows
  - Causes excessive resource usage
+
+## Practice Problems
+
+All practice problems and related answers are located in `practice_problems.sql` and cover `SELECT` queries accessing two or more tables, as well as `INSERT`, `UPDATE`, and `DELETE` statements. Problems reference tables in the ICA database.
+
+## Graded Assignment
+
+All problems in the graded assignment and related answers are located in `graded_assignment.sql` and cover slightly more complex `SELECT` queries accessing up to five tables, as well as `INSERT`, `UPDATE`, and `DELETE` statements. Problems also reference tables in the ICA database.
