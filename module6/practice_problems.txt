@@ -1,5 +1,0 @@
-1. Draw an ERD containing Student and Paper entity types connected by a 1-M relationship. The Student entity type should have attributes for StdNo (primary key), StdFirstName, StdLastName, StdAdmitSemester, StdAdmitYear, and StdEnrollStatus (full or part-time). The Paper entity type should have attributes for PaperNo (primary key), PaperTitle, PaperSubmitDate, PaperAccepted (yes or no), and PaperType (first, second, proposal, or dissertation). Add a 1-M relationship from Student to Paper.
-
-2. Extend the ERD with an Evaluator entity type and an M-N relationship between Paper and Evaluator. The Evaluator entity type should have attributes for EvalNo (primary key), EvalFirstName, EvalLastName, EvalEmail, and EvalOffice. The M-N relationship should have attributes for EvalDate, EvalLitReview (1 to 5 rating), EvalProbId (1 to 5 rating), EvalTechWriting (1 to 5 rating), EvalModelDev (1 to 5 rating), EvalOverall (1 to 5 rating), and EvalComments.
-
-3. Transform the M-N relationship from problem 9 into an associative entity type and identifying relationships.

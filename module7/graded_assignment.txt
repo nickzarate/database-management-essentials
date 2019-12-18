@@ -1,7 +1,0 @@
-1.	Create an ERD containing the TestOrder and Specimen entity types and a 1-M relationship from Specimen to TestOrder. For each specimen collected, the database should record a unique SpecNo, SpecArea (vaginal, cervical, or endocervical), and SpecCollMethod (thin prep or sure path). A test order contains a TONo (primary key), TOTestName, TOTestType (HPV, CT/GC, CT, or GC), and TOTestResult (positive, negative, equivocal, or failure).  A specimen does not have a test order until a delay, from hours to days. If a test order produces a failure, the specimen is given a new test order and tested again until a non-failure result is obtained. A test order is created for exactly one specimen.
-
-2.	Augment your ERD from problem 1 with the Supply entity type and an M-N relationship between TestOrder and Supply. Choose a name for the relationship based on your common knowledge of test orders and supplies. A test order can use a collection of supplies (0 or more) and a supply can be used on a collection of test orders (0 or more). The Supply entity type contains SuppNo (primary key), SuppName, SuppLotNo, and SuppQOH.
-
-3.	Use the M-N equivalence rule to transform the M-N relationship in Problem 2. You should choose appropriate names for the new relationships and entity type.
-
-4.	For each consistency error in Figure 1, you should identify the consistency rule violated and suggest possible resolutions of the error. The ERD has generic names to help will concentrate on finding diagram errors rather than focusing on the meaning of the diagram
