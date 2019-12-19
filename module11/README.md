@@ -21,7 +21,6 @@ This module primarily taught:
 - Boyce Cod Normal Form (BCNF) requires that every determinant of a functional dependency must be unique in a table.
 - BCNF Procedure to Normalize tables includes grouping functional dependencies with the same LHS. Then, we define tables for each group, using the determinant as the primary key and adding foreign keys. Last, we merge tables if the columns of one table are a subset of the columns of another table.
 
-
 Normalization is more important for transaction processing, but not for business intelligence. Denormalization may actually improve business intelligence queries because we do not have to `JOIN` as many tables.
 
 ## Practice Problems
